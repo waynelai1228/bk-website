@@ -1,4 +1,60 @@
 .App {
+}
+
+.fullpage {
+  height: 100vh;
+  width: 100hh;
+}
+
+.darkgray {
+  background-color: #111111;
+}
+
+#front-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 0.4fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+#logo {
+  grid-row: 2;
+  display: grid;
+}
+
+#frontName {
+  grid-row: 3;
+  font-size: 70px;
+  color: white;
+}
+#frontDescription {
+  grid-row: 4;
+  font-size: 30px;
+  color: #ffa100;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 50px 100px 1fr;
+  grid-template-areas:
+    ". . ."
+    ". title ."
+    ". content .";
+}
+.sectionTitle {
+  grid-area: title;
+  font-size: 50px;
+  color: white;
+}
+.sectionContent {
+  grid-area: content;
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+}
+/*
+.App {
   text-align: center;
 }
 
@@ -36,3 +92,4 @@
     transform: rotate(360deg);
   }
 }
+*/
