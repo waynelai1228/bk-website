@@ -1,10 +1,12 @@
 import logo from './bk_logo.png';
+import Header from './Header.js'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div className={`${"fullpage"} ${"darkgray"}`} id="front-section">
+      <Header />
+      <div className={`${"fullpage"} ${"darkgray"}`} id="front-page">
         <img src={logo} id="logo" alt="logo" height="400px" width="400px"/>
         <div id="frontName">Batman&#39;s Kitchen</div>
         <div id="frontDescription">UW security and privacy community</div>
@@ -31,25 +33,6 @@ function App() {
       </div>
     </div>
   );
-  /*
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );*/
 }
 
 export default App;
