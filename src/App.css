@@ -36,11 +36,12 @@
 .section {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 120px 100px 1fr;
+  grid-template-rows: 120px 100px 1fr 140px;
   grid-template-areas:
     ". . ."
     ". title ."
-    ". content .";
+    ". content ."
+    ". . .";
 }
 .sectionTitle {
   grid-area: title;

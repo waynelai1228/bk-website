@@ -11,7 +11,7 @@ function App() {
         <div id="frontName">Batman&#39;s Kitchen</div>
         <div id="frontDescription">UW security and privacy community</div>
       </div>
-      <div className={`${"fullpage"} ${"darkgray"} ${"section"}`} id="about-us">
+      <div className={`${"darkgray"} ${"section"}`} id="about-us">
         <div className="sectionTitle">About Us</div>
         <div className="sectionContent">
           Batman&#39;s Kitchen is the computer security and privacy community at University of Washington.
